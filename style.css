@@ -27,7 +27,7 @@ body {
 
 .hero {
     position: relative;
-    min-height: 120vh;
+    min-height: 110vh;
     /* background-color: var(--bg); */
     /* text-shadow: var(--shadow); */
 }
@@ -65,11 +65,11 @@ body {
 
 .mynavbar {
     background-color: rgba(255, 255, 255, 0.4) !important;
-    backdrop-filter: blur(4px);
+    /* backdrop-filter: blur(); */
 }
 
 .mynavbar .offcanvas {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .mynavbar .navbar-brand,
