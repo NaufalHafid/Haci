@@ -447,7 +447,7 @@
     //   volume: 0.5,
     //   src: ('ONLY.mp3')
     // })
-    var music = new Audio("ONLY.mp3");
+    var music = new Audio("assets/ONLY.mp3");
     music.volume = 0.2;
     const rootElement = document.querySelector(":root");
 
@@ -466,7 +466,7 @@
       rootElement.style.scrollBehavior = 'smooth';
       localStorage.setItem('opened', 'true');
       music.play()
-      audio.loop = true;
+      music.loop = true;
     }
     // if (!localStorage.getItem('opened')) {
     //   disableScroll();
@@ -522,7 +522,7 @@
           gradientColorDegree: 120,
         },
       ],
-      delay: 200,
+      delay: 100,
     });
   </script>
 </body>
