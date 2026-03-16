@@ -24,9 +24,11 @@
 
   <!-- sakura -->
   <link rel="stylesheet" href="dist/sakura.css" />
+  <link rel="icon" href="img/icon.ico" type="image/x-icon">
 </head>
 
 <body>
+
   <!-- Header -->
   <section id="hero"
     class="carousel slide hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
@@ -448,7 +450,7 @@
     //   src: ('ONLY.mp3')
     // })
     var music = new Audio("assets/ONLY.mp3");
-    music.volume = 0.2;
+    music.volume = 0.1;
     const rootElement = document.querySelector(":root");
 
     function disableScroll() {
@@ -500,6 +502,9 @@
     const to = urlParams.get('to');
     document.getElementById("to").innerHTML = to;
   </script>
+  <!-- ?to=hafid -->
+
+
   <!-- sakura -->
   <script src="dist/sakura.js"></script>
   <script>
